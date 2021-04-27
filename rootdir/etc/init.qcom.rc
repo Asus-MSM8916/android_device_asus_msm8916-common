@@ -343,15 +343,15 @@ on boot
     chown system system /sys/bus/iio/devices/iio:device0/power
     chmod 774 /sys/bus/iio/devices/iio:device0/power
 
-    chown system.system /sys/bus/iio/devices/iio:device0/*
+    chown system system /sys/bus/iio/devices/iio:device0/*
     chmod 774 /sys/bus/iio/devices/iio:device0/*
-    chown system.system /sys/bus/iio/devices/iio:device0/buffer/*
+    chown system system /sys/bus/iio/devices/iio:device0/buffer/*
     chmod 774 /sys/bus/iio/devices/iio:device0/buffer/*
-    chown system.system /sys/bus/iio/devices/iio:device0/scan_elements/*
+    chown system system /sys/bus/iio/devices/iio:device0/scan_elements/*
     chmod 774 /sys/bus/iio/devices/iio:device0/scan_elements/*
-    chown system.system /sys/bus/iio/devices/iio:device0/trigger/*
+    chown system system /sys/bus/iio/devices/iio:device0/trigger/*
     chmod 774 /sys/bus/iio/devices/iio:device0/trigger/*
-    chown system.system /sys/bus/iio/devices/iio:device0/power/*
+    chown system system /sys/bus/iio/devices/iio:device0/power/*
     chmod 774 /sys/bus/iio/devices/iio:device0/power/*
 
     # Files
@@ -557,15 +557,15 @@ on boot
     chown system system /sys/bus/iio/devices/iio:device1/power
     chmod 774 /sys/bus/iio/devices/iio:device1/power
 
-    chown system.system /sys/bus/iio/devices/iio:device1/*
+    chown system system /sys/bus/iio/devices/iio:device1/*
     chmod 774 /sys/bus/iio/devices/iio:device1/*
-    chown system.system /sys/bus/iio/devices/iio:device1/buffer/*
+    chown system system /sys/bus/iio/devices/iio:device1/buffer/*
     chmod 774 /sys/bus/iio/devices/iio:device1/buffer/*
-    chown system.system /sys/bus/iio/devices/iio:device1/scan_elements/*
+    chown system system /sys/bus/iio/devices/iio:device1/scan_elements/*
     chmod 774 /sys/bus/iio/devices/iio:device1/scan_elements/*
-    chown system.system /sys/bus/iio/devices/iio:device1/trigger/*
+    chown system system /sys/bus/iio/devices/iio:device1/trigger/*
     chmod 774 /sys/bus/iio/devices/iio:device1/trigger/*
-    chown system.system /sys/bus/iio/devices/iio:device1/power/*
+    chown system system /sys/bus/iio/devices/iio:device1/power/*
     chmod 774 /sys/bus/iio/devices/iio:device1/power/*
 
     chown system system /sys/bus/iio/devices/iio:device1/compass_matrix
