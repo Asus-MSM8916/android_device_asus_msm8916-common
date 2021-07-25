@@ -1,2 +1,4 @@
 allow zygote system_file:dir mounton;
 allow zygote { device proc_cmdline }:file { read write open getattr };
+
+allow zygote theme_prop:file { read open };
